@@ -12,7 +12,8 @@ const App = () => {
       <div className="profile">
         <LandingPage />
         <Routes>
-          <Route path="/" element={<Navigate replace to="/My-Profile/" />} />
+          {/* <Route path="/" element={<Navigate replace to="/My-Profile/" />} /> */}
+          <Route path="/" element={<Info />} />
           <Route path="/My-Profile" element={<Navigate replace to="/My-Profile/about" />} />
           <Route path="/My-Profile" element={<Info />} >
             <Route path="about" element={<About />} />
