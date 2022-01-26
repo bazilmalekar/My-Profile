@@ -11,14 +11,16 @@ const App = () => {
     <React.Fragment>
       <div className="profile">
         <LandingPage />
-        <Routes>
-          {/* <Route path="/" element={<Navigate replace to="/My-Profile/" />} /> */}
-          <Route path="/" element={<Info />} />
-          <Route path="/My-Profile" element={<Navigate replace to="/My-Profile/about" />} />
-          <Route path="/My-Profile" element={<Info />} >
+        <Routes>          
+        <Route path="/" element={<Navigate replace to="/about" />} />
+          <Route path="/" element={<Info />} >
+            <Route path="about" element={<About />} />
+            <Route path="projects" element={<Project />} />
+          </Route>
+          {/* <Route path="/My-Profile" element={<Info />} >
             <Route path="about" element={<About />} />
             <Route path="project" element={<Project />} />
-          </Route>
+          </Route> */}
         </Routes>        
       </div>
     </React.Fragment>

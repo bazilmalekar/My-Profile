@@ -33,8 +33,8 @@ const Info = () => {
                             <a href="/images/myProfilePic.jpg" data-lightbox="mygallery"><img className="testimage" src="/images/myProfilePic.jpg" alt="profile-pic"></img></a>           
                         </SRLWrapper>
                     </div>                    
-                    <NavLink to="/My-Profile/about" className="about_toggle"><div onClick={handleAboutClick} style={{ backgroundColor: !divColor ? "gray" : "black",  fontWeight: !divColor ? "bold": null}} className="toggle_divU"  data-aos="fade-right">About</div></NavLink>
-                    <NavLink to="/My-Profile/project" className="project_toggle"><div onClick={handleProjectClick} style={{ backgroundColor: divColor ? "gray" : "black",  fontWeight: divColor ? "bold": null}} className="toggle_divD"  data-aos="fade-left">Projects</div></NavLink>                  
+                    <NavLink to="/about" className="about_toggle"><div onClick={handleAboutClick} style={{ backgroundColor: !divColor ? "gray" : "black",  fontWeight: !divColor ? "bold": null}} className="toggle_divU"  data-aos="fade-right">About</div></NavLink>
+                    <NavLink to="/projects" className="project_toggle"><div onClick={handleProjectClick} style={{ backgroundColor: divColor ? "gray" : "black",  fontWeight: divColor ? "bold": null}} className="toggle_divD"  data-aos="fade-left">Projects</div></NavLink>                  
                 </div>
                  
                 <div className="col-lg-9">              
