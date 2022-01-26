@@ -1,0 +1,124 @@
+@import "mixins";
+
+.info{
+    @include custom-container; 
+    height: 600px;
+}
+
+.profile_image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.profile_pic{
+    background-color: greenyellow;
+    border-radius: 1rem;
+    height: 12rem;
+    width: 15rem;
+    margin-top: -2rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    &:hover{
+        transform: translateY(-10px) !important;
+        -webkit-transform: translateY(-10px) !important;
+        -ms-transform: translateY(-10px) !important;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.toggle_divU{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 10rem;
+    background-color: gray;
+    margin-top: 5rem;
+    position: relative;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    &::after{
+        position: absolute;
+        border-top-right-radius: 1rem;
+        width: 10rem;
+        height: 5rem;
+        content: "";
+        background-color: inherit;
+        z-index: -1;
+        top:0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform-origin: top right;
+        -webkit-transform-origin: top right;
+        -ms-transform-origin: top right;
+        transform: skewY(-10deg);
+        -webkit-transform: skewY(-10deg);
+        -ms-transform: skewY(-10deg);
+    }
+    &:hover{
+        text-decoration: inherit;
+    }
+}
+
+.toggle_divD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 10rem;
+    background-color: black;
+    margin-top: 2rem;
+    position: relative;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    color: #fff;
+    &::after{
+        border-bottom-left-radius: 0.5rem;
+        position: absolute;
+        width: 10rem;
+        height: 5rem;
+        content: "";
+        background-color: inherit;
+        z-index: -1;
+        top:0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform-origin: bottom left;
+        -webkit-transform-origin: bottom left;
+        -ms-transform-origin: bottom left;
+        transform: skewY(-10deg);
+        -webkit-transform: skewY(-10deg);
+        -ms-transform: skewY(-10deg);
+    }
+    &:hover{
+        text-decoration: inherit;
+    }
+}
+
+.about_toggle,
+.project_toggle{
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+@media screen and(max-width: 992px){
+    .toggle_divU, 
+    .toggle_divD{
+        margin-top: 2rem;
+    }
+}
+

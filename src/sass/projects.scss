@@ -1,0 +1,57 @@
+.projects{
+    width: 100%;
+}
+
+.porject_divOuter{
+    display: flex;
+    justify-content: center;
+}
+
+.porject_div{
+    width: 25rem;
+    height: 11.5rem;
+    // border: 5px solid #000;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s;
+    box-shadow: 0 6px 15px -2px #808080;
+    
+    &:hover{
+        box-shadow: 0 9px 15px 1px #808080;
+    }
+}
+
+.project_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        color: darken(#888, 25%);
+        font-size: 1.5rem;
+        text-align: center;
+        p{
+            font-size: 1rem;
+        }
+    }
+}
+
+.carousel-item{
+    border-radius: 1rem;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+@media screen and(max-width: 992px) {
+    .flip{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .project_title{
+        margin-top: -4rem;
+    }
+}

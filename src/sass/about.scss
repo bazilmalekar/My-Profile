@@ -1,0 +1,117 @@
+.about{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.about_intro{
+    text-align: center;
+    color: darken(#888, 25%);
+    margin-top: 1rem;
+}
+
+.skills{
+    width: 100%;
+    max-height: 20rem;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    text-align: left;
+    section{
+        width: 100%;
+        height: 20rem;
+        scroll-snap-align: start;
+    }
+}
+.skills::-webkit-scrollbar {
+    width: 5px;   
+  }
+.skills::-webkit-scrollbar-thumb{
+    background-color: $div-thumb-color;
+    border-radius: 0.5rem;
+}
+.skills::-webkit-scrollbar-track{
+    border-radius: 0.5rem;
+    &:hover{
+        background-color: $div-track-hover;
+    }
+}
+
+.skill_list{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill_content{
+    display: flex;
+}
+
+.skill_spacing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    position: relative;
+    &::before{
+        content: "";
+        background-color: lighten(#808080, 20%);
+        position: absolute;
+        bottom: -30px;
+        width: 80%;
+        height: 1rem;
+        border-radius: 50%;
+        filter: blur(3.5px);
+        z-index: -5;
+    }
+}
+
+.skill_icons{
+    width: 2rem;
+    height: 2rem;
+}
+
+.skill_category{
+    font-weight: bold;
+}
+
+.custom_btn{
+    width: 20rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(-180deg, #082032, darken(#2B2B2B, 15%));
+    transition: all 0.3s;
+    box-shadow: 0 15px 15px -4px #808080;
+    letter-spacing: 0.25rem;
+    &:hover{
+        background-image: linear-gradient(-180deg,  darken(#2B2B2B, 15%), #082032);
+    } 
+}
+
+@media screen and(max-width: 992px){
+    .skill_content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill_spacing{
+        margin: 0.8rem 0;
+        &::before{
+            content: "";
+            background-color:   #fff;
+            position: absolute;
+            bottom: -10px;
+            width: 80%;
+            height: 1rem;
+            border-radius: 50%;
+            filter: blur(3.5px);
+            z-index: -5;
+        }
+    }
+    .skill_title{
+        width: 50%;
+        text-align: center;
+    }
+}
