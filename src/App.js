@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import LandingPage from "./components/LandingPage";
 import Info from "./components/Info";
-import {Routes, Route, NavLink, Navigate, Outlet } from "react-router-dom";
+import {Routes, Route, Navigate } from "react-router-dom";
 import About from "./components/About";
 import Project from "./components/Project";
 

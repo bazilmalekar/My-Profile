@@ -13,13 +13,13 @@ const Project = () => {
                         <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img className="d-block w-100" src="images/turbo1.png" alt="First slide" />
+                                    <img className="d-block w-100" src="/images/turbo1.png" alt="First slide" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src="images/turbo2.png" alt="Second slide" />
+                                    <img className="d-block w-100" src="/images/turbo2.png" alt="Second slide" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src="images/turbo3.png" alt="Third slide" />
+                                    <img className="d-block w-100" src="/images/turbo3.png" alt="Third slide" />
                                 </div>
                             </div>
                             <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -55,13 +55,13 @@ const Project = () => {
                         <div id="carouselExampleControls1" className="carousel slide" data-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img className="d-block w-100" src="images/bluebell1.png" alt="First slide" />
+                                    <img className="d-block w-100" src="/images/bluebell1.png" alt="First slide" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src="images/bluebell2.png" alt="Second slide" />
+                                    <img className="d-block w-100" src="/images/bluebell2.png" alt="Second slide" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src="images/bluebell3.png" alt="Third slide" />
+                                    <img className="d-block w-100" src="/images/bluebell3.png" alt="Third slide" />
                                 </div>
                             </div>
                             <a className="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">

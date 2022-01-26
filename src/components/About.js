@@ -31,19 +31,19 @@ const About = () => {
                             <Fade bottom cascade>
                                 <div className="skill_content">
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/html.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/html.png" alt="html icon" className="skill_icons" />
                                         <h6>HTML5</h6>
                                     </div>
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/css.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/css.png" alt="html icon" className="skill_icons" />
                                         <h6>CSS3</h6>
                                     </div>
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/js.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/js.png" alt="html icon" className="skill_icons" />
                                         <h6>JavaScript ES6</h6>
                                     </div>  
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/jquery.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/jquery.png" alt="html icon" className="skill_icons" />
                                         <h6>jQuery</h6>
                                     </div>                              
                                 </div>
@@ -60,19 +60,19 @@ const About = () => {
                             <Fade bottom cascade delay={500}>
                                 <div className="skill_content">
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/sass.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/sass.png" alt="html icon" className="skill_icons" />
                                         <h6>SASS</h6>
                                     </div>
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/bootstrap.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/bootstrap.png" alt="html icon" className="skill_icons" />
                                         <h6>Bootstrap</h6>
                                     </div>
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/material-ui.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/material-ui.png" alt="html icon" className="skill_icons" />
                                         <h6>Material-ui</h6>
                                     </div>   
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/css.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/css.png" alt="html icon" className="skill_icons" />
                                         <h6>Flexbox</h6>
                                     </div>                              
                                 </div>
@@ -89,7 +89,7 @@ const About = () => {
                             <Fade bottom cascade delay={500}>
                                 <div className="skill_content">
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/react.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/react.png" alt="html icon" className="skill_icons" />
                                         <h6>React JS</h6>
                                     </div>                           
                                 </div>
@@ -106,7 +106,7 @@ const About = () => {
                             <Fade bottom cascade delay={500}>
                                 <div className="skill_content">
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/redux.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/redux.png" alt="html icon" className="skill_icons" />
                                         <h6>Redux</h6>
                                     </div>                           
                                 </div>
@@ -123,11 +123,11 @@ const About = () => {
                             <Fade bottom cascade delay={500}>
                                 <div className="skill_content">
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/node.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/node.png" alt="html icon" className="skill_icons" />
                                         <h6>Node.js</h6>
                                     </div>    
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/mongodb.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/mongodb.png" alt="html icon" className="skill_icons" />
                                         <h6>MongoDB</h6>
                                     </div>                        
                                 </div>
@@ -144,11 +144,11 @@ const About = () => {
                             <Fade bottom cascade delay={500}>
                                 <div className="skill_content">
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/node.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/node.png" alt="html icon" className="skill_icons" />
                                         <h6>Express</h6>
                                     </div>    
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/mongodb.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/mongodb.png" alt="html icon" className="skill_icons" />
                                         <h6>Mongoose</h6>
                                     </div>                        
                                 </div>
@@ -165,11 +165,11 @@ const About = () => {
                             <Fade bottom cascade delay={500}>
                                 <div className="skill_content">
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/github.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/github.png" alt="html icon" className="skill_icons" />
                                         <h6>GitHub</h6>
                                     </div>
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/bitbucket.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/bitbucket.png" alt="html icon" className="skill_icons" />
                                         <h6>Bitbucket</h6>
                                     </div>                                                                
                                 </div>
@@ -186,11 +186,11 @@ const About = () => {
                             <Fade bottom cascade delay={500}>
                                 <div className="skill_content">
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/aws.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/aws.png" alt="html icon" className="skill_icons" />
                                         <h6>AWS</h6>
                                     </div>
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/heroku.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/heroku.png" alt="html icon" className="skill_icons" />
                                         <h6>Heroku</h6>
                                     </div>                                                                
                                 </div>
@@ -207,7 +207,7 @@ const About = () => {
                             <Fade bottom cascade delay={500}>
                                 <div className="skill_content">
                                     <div className="skill_spacing">
-                                        <img src="https://bazilmalekar.github.io/My-Profile/icons/jira.png" alt="html icon" className="skill_icons" />
+                                        <img src="/icons/jira.png" alt="html icon" className="skill_icons" />
                                         <h6>Jira Software</h6>
                                     </div>                                                               
                                 </div>
