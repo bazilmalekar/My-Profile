@@ -12,7 +12,7 @@ const App = () => {
       <div className="profile">
         <LandingPage />
         <Routes>          
-        <Route path="/" element={<Navigate replace to="/about" />} />
+        {/* <Route path="/" element={<Navigate replace to="/about" />} /> */}
           <Route path="/" element={<Info />} >
             <Route path="about" element={<About />} />
             <Route path="projects" element={<Project />} />
