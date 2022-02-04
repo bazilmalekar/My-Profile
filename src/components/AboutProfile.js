@@ -7,3 +7,5 @@ const AboutProfile = () => {
         </>
     );
 }
+
+export default AboutProfile;
