@@ -12,15 +12,11 @@ const App = () => {
       <div className="profile">
         <LandingPage />
         <Routes>          
-        {/* <Route path="/" element={<Navigate replace to="/about" />} /> */}
+        <Route path="/" element={<Navigate replace to="/projects" />} />
           <Route path="/" element={<Info />} >
             <Route path="about" element={<About />} />
             <Route path="projects" element={<Project />} />
           </Route>
-          {/* <Route path="/My-Profile" element={<Info />} >
-            <Route path="about" element={<About />} />
-            <Route path="project" element={<Project />} />
-          </Route> */}
         </Routes>        
       </div>
     </React.Fragment>
