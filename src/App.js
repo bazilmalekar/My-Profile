@@ -4,7 +4,6 @@ import LandingPage from "./components/LandingPage";
 import Info from "./components/Info";
 import {Routes, Route, Navigate } from "react-router-dom";
 import About from "./components/About";
-import AboutProfile from "./components/AboutProfile";
 import Project from "./components/Project";
 
 
