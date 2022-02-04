@@ -5,6 +5,7 @@ import Info from "./components/Info";
 import {Routes, Route, Navigate } from "react-router-dom";
 import About from "./components/About";
 import Project from "./components/Project";
+import Test from "./components/Test";
 
 const App = () => {
   return(
@@ -14,7 +15,7 @@ const App = () => {
         <Routes>          
         <Route path="/" element={<Navigate replace to="/projects" />} />
           <Route path="/" element={<Info />} >
-            <Route path="about" element={<About />} />
+            <Route path="about" element={<Test />} />
             <Route path="projects" element={<Project />} />
           </Route>
         </Routes>        
