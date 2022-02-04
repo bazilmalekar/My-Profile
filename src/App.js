@@ -3,6 +3,7 @@ import "./App.css";
 import LandingPage from "./components/LandingPage";
 import Info from "./components/Info";
 import {Routes, Route, Navigate } from "react-router-dom";
+import About from "./components/About";
 import AboutProfile from "./components/AboutProfile";
 import Project from "./components/Project";
 
@@ -15,7 +16,7 @@ const App = () => {
         <Routes>          
         <Route path="/" element={<Navigate replace to="/about" />} />
           <Route path="/" element={<Info />} >
-            <Route path="about" element={<AboutProfile />} />
+            <Route path="about" element={<About />} />
             <Route path="projects" element={<Project />} />
           </Route>
         </Routes>        

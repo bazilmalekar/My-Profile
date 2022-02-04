@@ -1,7 +1,7 @@
 import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react/cjs/react.development";
+import { useEffect } from "react";
 import {Fade} from "react-reveal";
 
 const About = () => {
