@@ -215,7 +215,8 @@ const About = () => {
                         </div>
                     </section>         
                 </div>        
-                <a href="/docs/certificates.pdf" target="_blank"><button className="btn btn-primary custom_btn">Certifications</button></a>        
+                <a href="/docs/experience.pdf" target="_blank"><button className="btn btn-primary custom_btn">Experience</button></a>
+                <a href="/docs/certificates.pdf" target="_blank"><button className="btn btn-primary custom_btn">Certifications</button></a>         
             </div>
         </div>
         </>
