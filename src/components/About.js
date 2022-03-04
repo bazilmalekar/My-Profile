@@ -185,10 +185,10 @@ const About = () => {
                             </div>
                             <Fade bottom cascade delay={500}>
                                 <div className="skill_content">
-                                    <div className="skill_spacing">
+                                    {/* <div className="skill_spacing">
                                         <img src="/icons/aws.png" alt="html icon" className="skill_icons" />
                                         <h6>AWS</h6>
-                                    </div>
+                                    </div> */}
                                     <div className="skill_spacing">
                                         <img src="/icons/heroku.png" alt="html icon" className="skill_icons" />
                                         <h6>Heroku</h6>

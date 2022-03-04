@@ -199,7 +199,9 @@
   max-height: 20rem;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
-  text-align: left; }
+  text-align: left;
+  scrollbar-width: thin;
+  scrollbar-color: #04042e #fff; }
   .skills section {
     width: 100%;
     height: 20rem;
