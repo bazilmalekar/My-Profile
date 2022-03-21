@@ -30,7 +30,7 @@ const Info = () => {
                 <div className="col-lg-3 profile_image">
                     <div className="profile_pic"  data-aos="fade-down-right" data-aos-offset="500">
                         <SRLWrapper>
-                            <a href="/images/myProfilePicLarge.jpg" data-lightbox="mygallery"><img className="testimage" src="/images/myProfilePic.jpg" alt="profile-pic"></img></a>           
+                            <a href="/images/myProfilePicLarge.jpg" data-lightbox="mygallery"><img className="testimage" src="/images/myProfilePicSmall.jpg" alt="profile-pic"></img></a>           
                         </SRLWrapper>
                     </div>                    
                     <NavLink to="/about" className="about_toggle"><div onClick={handleAboutClick} style={{ backgroundColor: !divColor ? "gray" : "black",  fontWeight: !divColor ? "bold": null}} className="toggle_divU"  data-aos="fade-right">About</div></NavLink>
